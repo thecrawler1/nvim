@@ -5,13 +5,18 @@
 ---@type ChadrcConfig
 local M = {}
 
-M.base46 = {
-	theme = "onedark",
+M.ui = {
+  tabufline = {
+    order = { "treeOffset", "buffers" },
+  },
+  statusline = {
+    theme = "default",
+    separator_style = "block"
+  }
+}
 
-	-- hl_override = {
-	-- 	Comment = { italic = true },
-	-- 	["@comment"] = { italic = true },
-	-- },
+M.base46 = {
+	theme = "radium",
 }
 
 return M
