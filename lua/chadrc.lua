@@ -10,8 +10,8 @@ M.ui = {
     order = { "treeOffset", "buffers" },
   },
   statusline = {
-    theme = "default",
-    separator_style = "block"
+    theme = "vscode_colored",
+    separator_style = "block",
   }
 }
 
