@@ -18,7 +18,7 @@ local options = {
     default_tags = { "daily" },
   },
   mappings = {
-    ["gf"] = {
+    ["gd"] = {
       action = function()
         return require("obsidian").util.gf_passthrough()
       end,
