@@ -14,7 +14,7 @@ return {
   {
     "epwalsh/obsidian.nvim",
     version = "*",
-    lazy = true,
+    lazy = false,
     ft = "markdown",
     dependencies = {
       "hrsh7th/nvim-cmp",
