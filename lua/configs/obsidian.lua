@@ -3,6 +3,10 @@ local options = {
     {
       name = "work",
       path = "~/tasks/work",
+      overrides = {
+        notes_subdir = "todo",
+        new_notes_location = "todo",
+      },
     },
   },
   notes_subdir = "notes",
