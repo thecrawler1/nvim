@@ -2,7 +2,7 @@ local options = {
   workspaces = {
     {
       name = "work",
-      path = "~/vaults/work",
+      path = "~/tasks/work",
     },
   },
   notes_subdir = "notes",
