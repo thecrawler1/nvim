@@ -2,7 +2,7 @@ local options = {
   workspaces = {
     {
       name = "work",
-      path = "~/tasks/work",
+      path = "/home/thecrawler/tasks/work",
       overrides = {
         notes_subdir = "todo",
         new_notes_location = "todo",
