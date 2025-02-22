@@ -12,16 +12,19 @@ return {
   },
 
   {
-    "epwalsh/obsidian.nvim",
-    version = "*",
+    "echasnovski/mini.nvim",
+    version = false,
     lazy = false,
-    ft = "markdown",
-    dependencies = {
-      "hrsh7th/nvim-cmp",
-      "nvim-lua/plenary.nvim",
-      "nvim-telescope/telescope.nvim",
-      "nvim-treesitter/nvim-treesitter",
-    },
-    opts = require "configs.obsidian",
+    config = function()
+      require("mini.ai").setup()
+      require("mini.surround").setup()
+      require('mini.splitjoin').setup()
+    end,
   },
+
+  -- {
+  --   "frankroeder/parrot.nvim",
+  --   dependencies = { "ibhagwan/fzf-lua", "nvim-lua/plenary.nvim" },
+  --   opts = {}
+  -- }
 }
